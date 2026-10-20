@@ -1,0 +1,1 @@
+Tämä kansio on tylpajatehtävä 1 varten.
