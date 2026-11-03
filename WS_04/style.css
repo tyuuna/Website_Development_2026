@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.flex-item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.responsive-box {
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .responsive-box {
+        background-color: lightblue;
+    }
+}
+
+@media (min-width: 801px) {
+    .responsive-box {
+        background-color: lightcoral;
+    }
+}
