@@ -1,0 +1,1 @@
+Tämä on työpaja tehtävää 6 varten.
